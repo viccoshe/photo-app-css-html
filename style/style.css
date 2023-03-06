@@ -1,0 +1,566 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    font-family: 'Gotham Rounded';
+    color: white;
+    width: 1024px;
+    
+    
+}
+
+.page-container {
+    width: 1280px;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-container {
+    height: 742px;
+    width: 1280px;
+
+    background-image: url(../img/headerphoto.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    font-family: 'Gotham Rounded';
+    color: white;
+    
+}
+
+.nav-container {
+    width: 1152px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    letter-spacing: 4px;  
+}
+
+.nav-container li {
+    height: 30px;
+    width: 1152px;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style-type: none;
+    
+}
+
+.nav-container li:not([class="logo"]) {
+    margin-top: 62px;
+    padding-top: 10px;
+   
+}
+
+.nav-container li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-container li a:hover {
+    color:#11a98b
+}
+
+.nav-container li a:active {
+    color: #30e8c3;
+}
+
+.nav-container .logo {
+    height: 60px;
+    background-image: url(../img/whitelogo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    margin-top: 40px; 
+}
+
+.main-title  {
+    width: 512px;
+    height: 406px;
+    margin-left: 384px;
+    margin-top: 248px;
+}
+.main-title h1 {
+    text-align: center;
+    letter-spacing: 4px;
+   
+}
+
+.main-title h4 {
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    font-size: 13px;  
+}
+
+.get-started {
+    border-radius: 3px;
+    border: 0;
+    background-color: rgb(22, 160, 133);
+    width: 166px;     
+    height: 49px;
+
+    padding: 0 30px;
+    margin-top: 28px;
+    
+
+    font-size: 12px;
+    font-family: 'Gotham Rounded';
+    color: white;
+    letter-spacing: 1px; 
+}
+
+.main-title .get-started {
+    margin-left: 172px;
+}
+   
+.main-title .icon-container {
+    width: 100px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 210px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.i-twitter {
+    height: 30px;
+    width: 30px;
+    background-image: url(../img/fa-twitter.png);
+    background-repeat: no-repeat;
+   
+}
+
+.i-flickr {
+    height: 30px;
+    width: 30px;
+    background-image: url(../img/fa-flickr.png);
+    background-repeat: no-repeat;
+}
+
+.i-dribble {
+    height: 30px;
+    width: 30px;
+    background-image: url(../img/dribble.png);
+    background-repeat: no-repeat;
+}
+
+.icon-container .i-twitter:hover,
+.icon-container .i-flickr:hover,
+.icon-container .i-dribble:hover {
+    opacity: 0.6;
+}
+
+.representation {
+    background-image: url(../img/iPhone.png);
+    background-repeat: no-repeat;
+    background-position: top -40% right 20%;
+    background-color: #f5f6f7;
+    padding-left: 128px;
+    padding-right: 128px;
+    height: 490px;
+    
+    
+}
+
+section .representation,
+section .design {
+    height: 492px;
+    width: 1024px;
+     
+
+}
+
+
+.design {
+    margin-right: auto;
+    margin-left: auto;
+    height: 560px;
+}
+
+.representation .repr-block p,
+.design .dis-block {
+    margin-bottom: 48px;
+}
+
+
+.representation .repr-block h4,
+.design .dis-block h4 {
+    margin-bottom: 52px;
+    padding-top: 112px;
+}
+
+.design h4, 
+.representation .repr-block h4 {
+    line-height: 1.5;
+    text-align: left;
+    
+}
+
+.representation .repr-block h4 a,
+.design .dis-block h4 a {
+    text-decoration: none;
+    font-family: 'Gotham Rounded';
+    color: #16a085;
+    letter-spacing: 1px;
+    text-align: left;
+    text-transform: uppercase;   
+}
+
+.representation .repr-block h4 a:hover,
+.design .dis-block h4 a:hover {
+    color: #3ad4b5;
+}
+
+
+.design .dis-block p,
+.representation .repr-block p {
+    font-size: 10px;
+    line-height: 2;
+    color: rgb(55, 55, 55);
+    font-family: 'Gotham Rounded Book';
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+.design .dis-block {
+    margin-left: 630px; 
+}
+.design {
+    background-image: url(../img/iphone1.png);
+    background-repeat: no-repeat;
+    background-position:  0% -110%;
+}
+
+.communities {
+    background-color: #f5f6f7;
+    padding-left: 128px;
+    padding-right: 128px;
+    font-family: 'Gotham Rounded';
+    height: 484px;
+    display: flex;
+}
+
+.our-community {
+    /*width: 192px;
+    height: 118px;*/
+    width: 192px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.communities .our-community h4 {
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.communities .our-community h4 a {
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(32, 31, 31);
+}
+
+.communities .our-community h4 a:hover {
+    color: #3ad4b5;
+}
+
+.communities .our-community p {
+    font-size: 9px;
+    letter-spacing: 2px;
+    color: rgb(125, 125, 125);
+    text-align: center;
+    width: 200px;
+}
+
+.green-logo {
+    background-image: url(../img/logo-footer.png);
+    background-repeat: no-repeat;
+    margin-bottom: 25px;
+    height: 60px;
+    width: 60px; 
+}
+
+img {
+    margin: 120px 25px;
+    width: 370px;
+    height: 246px;
+}
+
+.subscribe {
+    height: 789px;
+    background-image: url(../img/photo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    font-family: 'Gotham Rounded';
+    letter-spacing: 5px;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+
+.subscribe h3 {
+    margin-bottom: 32px;
+}
+
+.button-icon {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #16a085;
+    border-radius: 0 3px 3px 0;
+    height: 60px;
+    width: 60px;  
+}
+
+.tick {
+    background-image: url(../img/fa-check.png);
+}
+
+.email-container input {
+    width: 282px;
+    height: 60px;
+    border-radius: 3px 0 0 3px;
+    border: none;
+}
+
+.email-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center; 
+        
+    align-items: stretch; 
+    align-content: center;
+}
+
+::placeholder {
+    
+    padding-left: 25px;
+    font-family: 'Gotham Rounded Medium';
+    font-size: 16px;
+    letter-spacing: 5px;
+    font-weight: 700;
+    color: rgb(82, 82, 82);
+}
+
+.download-sct {
+    height: 402px;
+    background-color: #f5f6f7;
+    padding-left: 128px;
+    padding-right: 128px;
+
+}
+
+.download {
+    background-image: url(../img/);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #1abc9c;
+    width: 282px;
+    height: 60px;
+    border-radius: 3px 0 0 3px;
+    border: none; 
+
+    font-size: 16px;
+    font-family: 'Gotham Rounded';
+    letter-spacing: 4px;
+    color: white; 
+}
+
+.apple {
+    background-image: url(../img/fa-apple.png);
+}
+
+.android {
+    background-image: url(../img/fa-android.png);
+}
+
+.dnl-title {
+    width: 852px;
+    height: 100px;
+}
+
+.dnl-title h4 {
+    font-family: 'Gotham Rounded';
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.dnl-title p {
+    font-family: 'Gotham Rounded';
+    font-size: 9px;
+    letter-spacing: 2px;
+    color: rgb(125, 125, 125);
+    text-align: center;
+}
+
+.apps-container {
+    width: 670px;
+    height: 73px;
+    display: flex;
+    
+    margin-bottom: 26px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.dnl-wrapper {
+
+    display: flex;
+    height: 402px;
+    justify-content: center;
+    flex-flow: column nowrap;
+    align-items: center;
+    align-content: center;  
+}
+
+.download-sct .dnl-wrapper .dnl-title h4 a {
+    text-decoration: none;
+    color: black;
+}
+.apple-store,
+.play-store {
+    display: flex;
+    flex-flow: column wrap;
+    
+    justify-content: center; 
+        
+    align-items: center; 
+    align-content: center;
+
+    height: 70px;
+}
+
+footer {
+    height: 130px;
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+
+footer .credits-container {
+    height: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 300px;
+    margin-left: 170px;
+    margin-top: 85px;
+    margin-bottom: 24px;
+}
+
+footer .credits-container .footer1,
+footer .credits-container .footer2,
+footer .credits-container .footer3 {
+    border-right: 2px solid #1abc9c;
+
+    font-family: 'Gotham Rounded';
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: rgb(80, 80, 80);
+    
+    width: 200px;
+    color: rgb(29, 29, 29);
+    
+    width: 300px;
+}
+
+footer .credit-copy .credits-container .footer1 a,
+footer .credit-copy .credits-container .footer2 a,
+footer .credit-copy  .credits-container .footer3 a {
+    text-decoration: none;
+    color: black;
+}
+
+footer .credit-copy .credits-container .footer1 a:hover,
+footer .credit-copy .credits-container .footer2 a:hover,
+footer .credit-copy  .credits-container .footer3 a:hover {
+    color: #11a98b;
+}
+
+footer .copyright p {
+    font-family: 'Gotham Rounded';
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: rgb(80, 80, 80);
+    
+    width: 200px;
+    color: rgb(29, 29, 29);
+    
+    width: 500px;
+    margin-left: 188px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+footer .foot-logo {
+    background-image: url(../img/logo-footer.png);
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 60px;
+    margin-left: auto;
+    margin-right: 130px;
+    margin-top: 58px;
+    margin-bottom: 38px;
+    
+}
+
+.credit-copy {
+    display: flex;
+    flex-flow: column nowrap; 
+}
+
+.get-started:hover,
+.download:hover {
+    background-color: #30e8c3;
+    color: rgb(29, 29, 29);
+}
+
+.tick:hover {
+    background-color: #30e8c3
+}
+
+.tick:active,
+.get-started:active,
+.download:active {
+    background-color: rgb(0, 255, 183)
+}
+
+@font-face {
+    font-family: 'Gotham Rounded';
+    src: url(../fonts/GothamRounded-Bold.otf);
+}
+
+@font-face {
+    font-family: 'Gotham Rounded Book';
+    src: url(../fonts/GothamRounded-Book.otf)
+}
+
+@font-face {
+    font-family: 'Gotham Rounded Medium';
+    src: url(../fonts/GothamRounded-Medium.otf)
+}
+
